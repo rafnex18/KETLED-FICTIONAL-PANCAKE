@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<split-tunnel version="1.0">
+  <domains>
+    <!-- Domains to INCLUDE in the tunnel -->
+    <include>
+      <domain>*.mycompany.com</domain>
+      <domain>*.internal.mycompany.com</domain>
+    </include>
+
+    <!-- Domains to EXCLUDE from the tunnel -->
+    <exclude>
+      <domain>*.facebook</domain>
+      <domain>*.yahoo.com</domain>
+      <domain>*.groq.com</domain>
+    </exclude>
+  </domains>
+</split-tunnel>
