@@ -9,7 +9,7 @@
 
     <!-- Domains to EXCLUDE from the tunnel -->
     <exclude>
-      <domain>*.facebook</domain>
+      <domain>*.facebook.com</domain>
       <domain>*.yahoo.com</domain>
       <domain>*.groq.com</domain>
     </exclude>
