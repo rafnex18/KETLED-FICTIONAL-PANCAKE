@@ -1,22 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<split-tunnel version="1.0">
- <access-routes>
-    <include>
-      <route>0.0.0.0/0</route>
-      <route>::/0</route>
-    </include>
-  </access-routes>
-  <domains>
-    <!-- Domains to INCLUDE in the tunnel -->
-    <include>
-      <domain>*.mycompany.com</domain>
-      <domain>*.internal.mycompany.com</domain>
-    </include>
-    <!-- Domains to EXCLUDE from the tunnel -->
-    <exclude>
-      <domain>*.facebook.com</domain>
-      <domain>*.yahoo.com</domain>
-      <domain>*.groq.com</domain>
-    </exclude>
-  </domains>
-</split-tunnel>
+<access-routes>
+   <member>0.0.0.0/0</member>
+   <member>::/0</member>
+</access-routes>
+<exclude-split-tunneling-domain>
+   <member>*.facebook.com</member>
+   <member>*.yahoo.com</member>
+   <member>*.groq.com</member>
+</exclude-split-tunneling-domain>
