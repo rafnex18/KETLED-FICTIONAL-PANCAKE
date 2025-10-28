@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <split-tunnel version="1.0">
+  
+ <access-routes>
+    <include>
+      <route>0.0.0.0/0</route>
+      <route>::/0</route>
+    </include>
+  </access-routes>
+  
   <domains>
     <!-- Domains to INCLUDE in the tunnel -->
     <include>
